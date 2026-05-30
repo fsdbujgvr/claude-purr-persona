@@ -60,5 +60,5 @@ API Error: This request triggered cyber-related safeguards ...
 3. 不能完整控制 messages，只能靠伪造 `.jsonl` 间接塞历史。
 4. thinking 块带服务端签名无法伪造（改一字就 `400`），伪造开场只能用 `text` 块。
 
-> 同一个预设在 SillyTavern + 反代里满血跑，在 CC 里要和客户端官方 prompt 对着干——
+> 同一个预设在反代里满血跑，在 CC 里要和客户端官方 prompt 对着干——
 > 不是 API 不行，是 CC 这层压顶。想要更高上限，用反代 token 换非 CC 客户端。
